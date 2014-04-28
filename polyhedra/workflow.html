@@ -1,0 +1,107 @@
+<style>
+    ol > li > ul {
+        margin-left:6em;
+        font-size:80%;
+    }
+
+    ol > li > ul     {color:#aaa}
+    ol > li > ul     a {color:#aaf}
+    ol > li > ul     a:visited {color:#e9e}
+
+</style>
+
+<style>
+    /* --==##  simple spacer  ##==-- */
+    ins {margin-left:3em; text-decoration:none}
+    del {margin:0 0 0 1.5em; padding:0; text-decoration:none}     /* half-width */
+                    /* ^^ abuses the <ins> and <del> tags, uses them for something else entirely */
+
+    /* --==##  default to sans-serif font  ##==-- */
+                    /* but when printing, use the default serif */
+    body, td {font-family: sans-serif}
+    @media print { body, td {font-family: serif} }
+
+    /* --==##  links aren't underlined unless you :hover  ##==-- */
+    a:link:hover {text-decoration:underline; background-color:#aaf; color:#000!important}
+    a:visited:hover {background-color:#faf; color:#000!important}
+    a {text-decoration:none}
+    @media print { a {text-decoration:underline} }
+
+    /* --==##  make h1/h2/h3 stand out with bars  ##==-- */
+    h1, h2, h3 {padding:0.3em; border-top:2px solid #000; border-bottom:2px solid #000;
+    background-color:#ccc; margin-top:2em}
+    body>h1:first-child, body>h2:first-child, body>h3:first-child {margin-top:0}
+
+    /* --==##  table cells have a nice border  ##==-- */
+    table.wikitable {border-collapse:collapse}
+    table.wikitable td, table.wikitable th {border:1px solid #aaa; padding:0.3em}
+    table.wikitable th {background-color:#000; color:#fff}
+    table.wikitable th a {color:#aaf}
+    table.wikitable th a:visited {color:#faf}
+    table.wikitable tr.header td, table.wikitable thead td {border:#fff}
+
+    /* --==##  kbd has gray background  ##==-- */
+    kbd {background-color:#bbb}
+
+    /* --==##  selectively make ul/ol spaced (non-cascading)  ##==-- */
+    ul.spaced > li, ol.spaced > li {margin-bottom:1em}
+    .spaced > li > .spaced {margin-top:1em}
+
+    /* --==##  CSS reset  ##==-- */
+    a img {border:0}
+
+    /* --==##  text is grayed-out for digressions  ##==-- */
+    .digression     {color:#aaa}
+    span.digression {margin-left:2em}
+    .digression     a {color:#aaf}
+    .digression     a:visited {color:#e9e}
+
+    /* BODY option -- make ul/ol be half-spaced */
+    ul.halfspaced > li, ol.halfspaced > li, body.halfspaced li {margin-bottom:0.5em}
+    .halfspaced > li > .halfspaced, body.halfspaced li > ul, body.halfspaced li > ol {margin-top:0.5em}
+</style>
+
+<body class="">
+
+<ol class=spaced>
+
+<li>get OpenSCAD files from <a href="http://www.thingiverse.com/search/advanced?q=&desc=Polyhedra+&instr=&user=%5B%22pmoews%22%5D&tag=%5B%5D&startdate=&enddate=">pmoes@thingiverse</a>
+            <a href="http://www.thingiverse.com/search/advanced?q=&desc=solids&instr=&user=%5B%22pmoews%22%5D&tag=%5B%5D&startdate=&enddate=">[2]</a>
+
+    <ul>
+    <li><a href="http://www.thingiverse.com/thing:16968/">Platonic solids</a>
+    <li><a href="https://www.thingiverse.com/thing:17571/">Archimedean solids</a>
+    <li><a href="http://www.thingiverse.com/search?q=Color+Archimedean+Solids+pmoews&sa=">multicolor Archimedean solids</a>
+    <li><a href="http://www.thingiverse.com/thing:16508">Johnson solids</a>
+            <ins/> <a href="https://en.wikipedia.org/wiki/List_of_Johnson_solids">[key]</a>
+    <li><a href="http://www.thingiverse.com/thing:17137">Catalan solids</a>
+    </ul>
+
+<li>text-edit the OpenSCAD file, make it solid, not hollow
+    <ul>
+    <li>in the "difference" function, comment out the last pair of lines
+    </ul>
+
+<li>open in OpenSCAD;  Compile and Render; Export as STL
+
+<li>open in Pepakura;  Unfold;   tweak;  Export as Vector &gt; EPS
+    <ul>
+    <li>2D &gt; Change Scale &gt; Scale Factor &rArr; 1     <ins/>(autoscale makes the polyhedra different sizes!)
+    <li>when exporting as EPS, fill the faces, don't fill the flaps
+    </ul>
+
+<li>open in Inkscape;  <a href="http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Extensions-ModifyPath.html">Extensions &gt; Modify Path &gt; Convert to Dashes</a>;  linewidth &rArr; 0.001 inch;  <a href="http://mambohead.com/2011/09/epilog-zing-laser-and-inkscape/">Save a Copy &gt; PDF</a>
+    <ul>
+    <li>Path &gt; Combine the folds (<a href="http://paperlined.org/apps/inkscape/select_all_by_object.html">this is helpful</a>);  Combine the non-folds; Combine the filled-faces
+    <li>final steps:
+        <ul>
+        <li>select all; fill&rArr;none
+        <li>select folds; ungroup,ungroup,ungroup,ungroup; width&rArr;0.2px; dashes&rArr;widest; Extensions &gt; Modify Path &gt; Convert to Dashes
+        <li>select all; linewidth&rArr;0.001 inch
+        </ul>
+    </ul>
+
+<li>open in Acrobat Reader; print to the Epilog laser cutter
+    <ul>
+    <li>vector only; power=100%; speed=100%; frequency=500Hz
+    </ul>

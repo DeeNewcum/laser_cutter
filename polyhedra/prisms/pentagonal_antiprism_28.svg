@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="765"
+   height="990"
+   xml:space="preserve"
+   sodipodi:docname="pentagonal_antiprism_28.eps"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs6" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="798"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.47676768"
+     inkscape:cx="766.24349"
+     inkscape:cy="627.52088"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10" /><g
+     id="g10"
+     inkscape:groupmode="layer"
+     inkscape:label="ink_ext_XXXXXX"
+     transform="matrix(1.25,0,0,-1.25,0,990)"><path
+       id="path44"
+       style="fill:#d9d9ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 386.27276,714.78098 -28.289,-133.09 129.403,42.046 m -129.403,-262.2 -129.404,42.046 28.289,-133.09 m 129.404,-42.045 -28.289,133.089 -101.115,-91.044 m 101.115,311.198 -101.115,91.044 -28.289,-133.089 m 28.289,133.089 101.115,-91.044 28.289,133.09 m -157.693,-175.135 -117.834,-68.032 117.834,-68.031 m 0,136.063 129.404,-178.109 0,220.154 m 0,0 0,-220.154 79.975,110.077 m -209.379,68.032 0,-136.063 129.404,-42.046 m -181.0907,-201.121 79.9757,-110.076997 0,220.153997 m 0,-220.153997 129.404,42.0457 -129.404,178.108297 m 0,0 129.404,-178.108297 0,136.063297 m 0,-136.063297 117.834,68.031297 -117.834,68.032 m 0,0 101.114,91.044 -129.403,42.045 m -129.404,178.109 28.289,133.089 -129.4035,-42.045 m 101.1145,-227.107 -101.1145,-91.044 129.4035,-42.046" /><path
+       id="path84"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:5.66929, 2.83465, 1.41732, 2.83465;stroke-dashoffset:0"
+       d="m 357.98376,361.53698 -101.115,-91.044 m 129.404,444.288 -129.404,-42.046 m 101.115,-91.044 28.289,133.09 m -129.404,-42.046 101.115,-91.044 m -129.404,-42.045 -117.834,-68.032 m 247.238,110.077 -129.404,-42.045 m 209.379,-68.032 -79.975,110.077 m -129.404,-178.108 129.404,-42.046 m -129.404,178.109 0,-136.063 m 28.289,-133.09 -79.9757,-110.077 m 209.3797,68.032 -129.404,42.045 m 129.404,-42.045 0,-136.063297 m 117.834,68.031297 -117.834,68.032 m 0,-136.063297 117.834,68.031297 m -146.123,201.121 28.289,-133.089 m 101.114,91.044 -129.403,42.045 m -101.115,311.198 -129.4035,-42.045 m 101.1145,-91.044 28.289,133.089 m 0,-402.242 -28.289,133.09 m 0,0 -101.1145,-91.044" /><path
+       id="path88"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+       d="m 127.46526,630.68998 0,0 m 359.9215,-6.953 -101.114,91.044 -53.578,27.299 -48.527,-15.767 -27.299,-53.578 -68.7984,22.354 -33.3055,-10.821 -27.2996,-53.578 101.1145,-91.044 0,0 -58.0832,15.563 -44.1875,-25.512 -15.5633,-58.083 117.834,-68.031 -60.0496,3.147 -37.918,-34.142 -3.1469,-60.049 0,0 129.4035,-42.046 -59.3917,-9.406 -29.9907,-41.279 9.4067,-59.392 79.9757,-110.076997 129.404,42.0457 0,0 58.083,-15.5633 44.187,25.511697 15.564,58.0829 0,0 -15.564,58.083 -44.187,25.512 -58.083,-15.563 0,0 101.114,91.044 -27.3,53.577 -33.305,10.822 -68.798,-22.354 0,0 79.975,110.077 9.407,59.392 -29.991,41.279 -59.391,9.406 129.403,42.046 z" /></g></svg>
