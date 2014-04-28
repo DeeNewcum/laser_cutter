@@ -13,3 +13,5 @@ There are three filetypes found here:
 * PDF — suitable for sending to a laser cutter (tested on an Epilog, but should work on others)
 
 For more information on how these were created, see [workflow.html](https://rawgithub.com/DeeNewcum/laser_cutter/master/polyhedra/workflow.html).
+
+![](http://deenewcum.github.io/laser_cutter/polyhedra/cuboctahedron_example.png)
