@@ -14,4 +14,5 @@ There are three filetypes found here:
 
 For more information on how these were created, see [workflow.html](https://rawgithub.com/DeeNewcum/laser_cutter/master/polyhedra/workflow.html).
 
+![](http://deenewcum.github.io/laser_cutter/polyhedra/polyhedra_assembled.jpg)
 ![](http://deenewcum.github.io/laser_cutter/polyhedra/cuboctahedron_example.png)
